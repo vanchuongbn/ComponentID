@@ -1,0 +1,3 @@
+bin\ComponentID.exe.config
+obj\Release\ComponentID.exe
+obj\Release\ComponentID.xml

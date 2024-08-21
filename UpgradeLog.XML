@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ComponentID">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\ppan\My Documents\Visual Studio 2005\Projects\ComponentID\ComponentID.sln">
+</Property><Property Name="Date" Value="Friday, December 19, 2008">
+</Property><Property Name="Time" Value="13:26 PM">
+</Property></Properties><Event ErrorLevel="0" Project="ComponentID" Source="ComponentID.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ComponentID" Source="ComponentID.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ComponentID.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ComponentID.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ComponentID" Source="ComponentID.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

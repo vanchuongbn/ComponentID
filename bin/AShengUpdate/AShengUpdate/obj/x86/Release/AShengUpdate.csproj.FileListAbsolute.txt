@@ -1,0 +1,7 @@
+D:\Unigen\IT Project\2015 Project\AShengUpdate\AShengUpdate\bin\Release\AShengUpdate.exe
+D:\Unigen\IT Project\2015 Project\AShengUpdate\AShengUpdate\bin\Release\AShengUpdate.pdb
+D:\Unigen\IT Project\2015 Project\AShengUpdate\AShengUpdate\obj\x86\Release\AShengUpdate.Form1.resources
+D:\Unigen\IT Project\2015 Project\AShengUpdate\AShengUpdate\obj\x86\Release\AShengUpdate.Properties.Resources.resources
+D:\Unigen\IT Project\2015 Project\AShengUpdate\AShengUpdate\obj\x86\Release\AShengUpdate.csproj.GenerateResource.Cache
+D:\Unigen\IT Project\2015 Project\AShengUpdate\AShengUpdate\obj\x86\Release\AShengUpdate.exe
+D:\Unigen\IT Project\2015 Project\AShengUpdate\AShengUpdate\obj\x86\Release\AShengUpdate.pdb

@@ -1,0 +1,421 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D59C2EDC-F767-4A79-95A4-448EC86C6472}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>BGA.ICO</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>ComponentID</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>ComponentID</RootNamespace>
+    <StartupObject>Sub Main</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <ManifestCertificateThumbprint>890732BA37DA94AFF8B62DB603997702FCE695C8</ManifestCertificateThumbprint>
+    <ManifestKeyFile>ComponentID_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <TargetZone>LocalIntranet</TargetZone>
+    <SignManifests>false</SignManifests>
+    <PublishUrl>http://localhost/ComponentID/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>1.1.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>ComponentID.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>ComponentID.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="office, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Oracle.DataAccess, Version=2.112.3.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Management">
+      <Name>System.Management</Name>
+    </Reference>
+    <Reference Include="System.Security">
+      <Name>System.Security</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.Designer.vb">
+      <DependentUpon>AboutBox1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppManager.vb" />
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Datalayer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="frmBrokerExport.Designer.vb">
+      <DependentUpon>frmBrokerExport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBrokerExport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBrokerMaster.Designer.vb">
+      <DependentUpon>frmBrokerMaster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBrokerMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheckFIFO.Designer.vb">
+      <DependentUpon>frmCheckFIFO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCheckFIFO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheckOverdateCode.Designer.vb">
+      <DependentUpon>frmCheckOverdateCode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCheckOverdateCode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConvert_Material.Designer.vb">
+      <DependentUpon>frmConvert_Material.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConvert_Material.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeleteComponetID.Designer.vb">
+      <DependentUpon>frmDeleteComponetID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeleteComponetID.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeleteWO_ComponentTriniti.Designer.vb">
+      <DependentUpon>frmDeleteWO_ComponentTriniti.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeleteWO_ComponentTriniti.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExpectDC.Designer.vb">
+      <DependentUpon>frmExpectDC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmExpectDC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInputAuthentic.Designer.vb">
+      <DependentUpon>frmInputAuthentic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInputAuthentic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintOuter_PCB.Designer.vb">
+      <DependentUpon>frmPrintOuter_PCB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrintOuter_PCB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRePrintNew.Designer.vb">
+      <DependentUpon>frmRePrintNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRePrintNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReturnFromProduct.Designer.vb">
+      <DependentUpon>frmReturnFromProduct.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReturnFromProduct.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTempComp.Designer.vb">
+      <DependentUpon>frmTempComp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTempComp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmComponent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPull2Print.Designer.vb">
+      <DependentUpon>frmPull2Print.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPull2Print.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReprintLabel.Designer.vb">
+      <DependentUpon>frmReprintLabel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReprintLabel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSearch.Designer.vb">
+      <DependentUpon>FrmSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdate.Designer.vb">
+      <DependentUpon>frmUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateFromOracle.Designer.vb">
+      <DependentUpon>frmUpdateFromOracle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdateFromOracle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jerrytest.Designer.vb">
+      <DependentUpon>jerrytest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="jerrytest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListItem.vb" />
+    <Compile Include="ListItem1.vb" />
+    <Compile Include="localdata.vb" />
+    <Compile Include="ModVar.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Re-PrintComponentID.Designer.vb">
+      <DependentUpon>Re-PrintComponentID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Re-PrintComponentID.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="AboutBox1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutBox1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBrokerExport.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBrokerExport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBrokerMaster.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBrokerMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheckFIFO.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCheckFIFO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheckOverdateCode.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCheckOverdateCode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConvert_Material.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConvert_Material.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeleteComponetID.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDeleteComponetID.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeleteWO_ComponentTriniti.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDeleteWO_ComponentTriniti.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExpectDC.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmExpectDC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInputAuthentic.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmInputAuthentic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintOuter_PCB.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPrintOuter_PCB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRePrintNew.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRePrintNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReturnFromProduct.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReturnFromProduct.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTempComp.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTempComp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmComponent.resx">
+      <DependentUpon>frmComponent.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPull2Print.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPull2Print.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReprintLabel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReprintLabel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSearch.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmSearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdate.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateFromOracle.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmUpdateFromOracle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jerrytest.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>jerrytest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Re-PrintComponentID.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Re-PrintComponentID.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BGA.ICO" />
+    <Content Include="Image\BGA.jpg" />
+    <None Include="app.config" />
+    <BaseApplicationManifest Include="My Project\app.manifest" />
+    <None Include="Resources\BGA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="BarTender">
+      <Guid>{D58562C1-E51B-11CF-8941-00A024A9083F}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
