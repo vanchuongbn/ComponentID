@@ -22,35 +22,36 @@ Partial Class frmExpectDC
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.txtComponentID = New System.Windows.Forms.TextBox
-        Me.Label1 = New System.Windows.Forms.Label
-        Me.tbnSearch = New System.Windows.Forms.Button
-        Me.DGV = New System.Windows.Forms.DataGridView
-        Me.Label2 = New System.Windows.Forms.Label
-        Me.txtday = New System.Windows.Forms.TextBox
-        Me.btnUpdate = New System.Windows.Forms.Button
-        Me.lblID = New System.Windows.Forms.Label
-        Me.Label3 = New System.Windows.Forms.Label
-        Me.txtMinus = New System.Windows.Forms.TextBox
-        Me.btnUpdate1 = New System.Windows.Forms.Button
-        Me.Label4 = New System.Windows.Forms.Label
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker
-        Me.btnreplate = New System.Windows.Forms.Button
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox
-        Me.btnS = New System.Windows.Forms.Button
-        Me.dapExpireDate = New System.Windows.Forms.DateTimePicker
-        Me.Label8 = New System.Windows.Forms.Label
-        Me.dapExDate = New System.Windows.Forms.DateTimePicker
-        Me.Label7 = New System.Windows.Forms.Label
-        Me.Label6 = New System.Windows.Forms.Label
-        Me.Label5 = New System.Windows.Forms.Label
-        Me.txtDC = New System.Windows.Forms.TextBox
-        Me.txtUGPN = New System.Windows.Forms.TextBox
-        Me.btnUpdateAll = New System.Windows.Forms.Button
-        Me.lblEXChangeDate = New System.Windows.Forms.Label
-        Me.lblEXpireDate = New System.Windows.Forms.Label
-        Me.Label9 = New System.Windows.Forms.Label
-        Me.Label10 = New System.Windows.Forms.Label
+        Me.txtComponentID = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.tbnSearch = New System.Windows.Forms.Button()
+        Me.DGV = New System.Windows.Forms.DataGridView()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.txtday = New System.Windows.Forms.TextBox()
+        Me.btnUpdate = New System.Windows.Forms.Button()
+        Me.lblID = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.txtMinus = New System.Windows.Forms.TextBox()
+        Me.btnUpdate1 = New System.Windows.Forms.Button()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.btnreplate = New System.Windows.Forms.Button()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.lblEXpireDate = New System.Windows.Forms.Label()
+        Me.lblEXChangeDate = New System.Windows.Forms.Label()
+        Me.btnS = New System.Windows.Forms.Button()
+        Me.dapExpireDate = New System.Windows.Forms.DateTimePicker()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.dapExDate = New System.Windows.Forms.DateTimePicker()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.txtDC = New System.Windows.Forms.TextBox()
+        Me.txtUGPN = New System.Windows.Forms.TextBox()
+        Me.btnUpdateAll = New System.Windows.Forms.Button()
+        Me.checkbox_auto_01 = New System.Windows.Forms.CheckBox()
         CType(Me.DGV, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
@@ -84,8 +85,8 @@ Partial Class frmExpectDC
         '
         Me.DGV.AllowUserToAddRows = False
         Me.DGV.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.DGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DGV.Location = New System.Drawing.Point(3, 154)
         Me.DGV.Name = "DGV"
@@ -207,6 +208,44 @@ Partial Class frmExpectDC
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Update DateExprire By UnigenPN & Datecode"
         '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.ForeColor = System.Drawing.Color.Red
+        Me.Label10.Location = New System.Drawing.Point(438, 98)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(61, 13)
+        Me.Label10.TabIndex = 72
+        Me.Label10.Text = "yyyy-mm-dd"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.ForeColor = System.Drawing.Color.Red
+        Me.Label9.Location = New System.Drawing.Point(438, 79)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(61, 13)
+        Me.Label9.TabIndex = 72
+        Me.Label9.Text = "yyyy-mm-dd"
+        '
+        'lblEXpireDate
+        '
+        Me.lblEXpireDate.AutoSize = True
+        Me.lblEXpireDate.Location = New System.Drawing.Point(221, 102)
+        Me.lblEXpireDate.Name = "lblEXpireDate"
+        Me.lblEXpireDate.Size = New System.Drawing.Size(64, 13)
+        Me.lblEXpireDate.TabIndex = 71
+        Me.lblEXpireDate.Text = "EXpireDate "
+        '
+        'lblEXChangeDate
+        '
+        Me.lblEXChangeDate.AutoSize = True
+        Me.lblEXChangeDate.Location = New System.Drawing.Point(221, 81)
+        Me.lblEXChangeDate.Name = "lblEXChangeDate"
+        Me.lblEXChangeDate.Size = New System.Drawing.Size(81, 13)
+        Me.lblEXChangeDate.TabIndex = 70
+        Me.lblEXChangeDate.Text = "EXChangeDate"
+        '
         'btnS
         '
         Me.btnS.Location = New System.Drawing.Point(402, 19)
@@ -292,49 +331,22 @@ Partial Class frmExpectDC
         Me.btnUpdateAll.Text = "Update "
         Me.btnUpdateAll.UseVisualStyleBackColor = False
         '
-        'lblEXChangeDate
+        'checkbox_auto_01
         '
-        Me.lblEXChangeDate.AutoSize = True
-        Me.lblEXChangeDate.Location = New System.Drawing.Point(221, 81)
-        Me.lblEXChangeDate.Name = "lblEXChangeDate"
-        Me.lblEXChangeDate.Size = New System.Drawing.Size(81, 13)
-        Me.lblEXChangeDate.TabIndex = 70
-        Me.lblEXChangeDate.Text = "EXChangeDate"
-        '
-        'lblEXpireDate
-        '
-        Me.lblEXpireDate.AutoSize = True
-        Me.lblEXpireDate.Location = New System.Drawing.Point(221, 102)
-        Me.lblEXpireDate.Name = "lblEXpireDate"
-        Me.lblEXpireDate.Size = New System.Drawing.Size(64, 13)
-        Me.lblEXpireDate.TabIndex = 71
-        Me.lblEXpireDate.Text = "EXpireDate "
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.ForeColor = System.Drawing.Color.Red
-        Me.Label9.Location = New System.Drawing.Point(438, 79)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(61, 13)
-        Me.Label9.TabIndex = 72
-        Me.Label9.Text = "yyyy-mm-dd"
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.ForeColor = System.Drawing.Color.Red
-        Me.Label10.Location = New System.Drawing.Point(438, 98)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(61, 13)
-        Me.Label10.TabIndex = 72
-        Me.Label10.Text = "yyyy-mm-dd"
+        Me.checkbox_auto_01.AutoSize = True
+        Me.checkbox_auto_01.Location = New System.Drawing.Point(346, 109)
+        Me.checkbox_auto_01.Name = "checkbox_auto_01"
+        Me.checkbox_auto_01.Size = New System.Drawing.Size(48, 17)
+        Me.checkbox_auto_01.TabIndex = 71
+        Me.checkbox_auto_01.Text = "Auto"
+        Me.checkbox_auto_01.UseVisualStyleBackColor = True
         '
         'frmExpectDC
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1845, 486)
+        Me.Controls.Add(Me.checkbox_auto_01)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.Label4)
@@ -388,4 +400,5 @@ Partial Class frmExpectDC
     Friend WithEvents lblEXChangeDate As System.Windows.Forms.Label
     Friend WithEvents Label10 As System.Windows.Forms.Label
     Friend WithEvents Label9 As System.Windows.Forms.Label
+    Friend WithEvents checkbox_auto_01 As CheckBox
 End Class

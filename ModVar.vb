@@ -3,6 +3,7 @@ Module ModVar
     Public TenMayChu As String
     Public Ten_Acc As String = ""
     Public Pass As String = ""
+    Public Strconn_ITDB_70 As String = "SERVER=172.16.1.70;database=UHAN_Web_ITDB;uid=sa;pwd=p@ssw0rd"
     Public Strconn As String = "SERVER=172.16.1.26\ughnsql1;database=WI;uid=sa;pwd=p@ssw0rd"
     Public Strconn_66 As String = "SERVER=172.16.1.66;database=UnigenTrax;uid=sa;pwd=p@ssw0rd"
     Public Strconn_NCRSystem As String = "SERVER=172.16.1.70;database=NCRSYSTEMS;uid=qa;pwd=Uhan@123"

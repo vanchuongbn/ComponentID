@@ -1,3 +1,4 @@
+
 Public Class frmBrokerExport
 
     Private Sub tbnSearch_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tbnSearch.Click
@@ -83,11 +84,11 @@ Public Class frmBrokerExport
                     lblsum.Text = "Total:" + ds_qty.Tables(0).Rows(0)("total").ToString().Trim()
                 End If
             Else
-               
+
             End If
 
             ' Dim a As String = Convert.ToDateTime(DateTimePicker1.Text).ToString("MM/dd/yyyy")
-            
+
         Catch ex As Exception
 
         End Try
@@ -162,6 +163,6 @@ Public Class frmBrokerExport
     End Sub
 
     Private Sub frmBrokerExport_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-         
+
     End Sub
 End Class

@@ -191,4 +191,36 @@ Public Class frmMain
             .Show()
         End With
     End Sub
+
+    Private Sub ToolStripMenuItem4_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem4.Click
+        Dim mrb As New frmUpdateMRB()
+        With mrb
+            .MdiParent = Me
+            .Show()
+        End With
+    End Sub
+
+    Private Sub CheckPrintingTempHistoryToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CheckPrintingTempHistoryToolStripMenuItem.Click
+        Dim mrb As New frm_Component_CheckPrinted_History()
+        With mrb
+            .MdiParent = Me
+            .Show()
+        End With
+    End Sub
+
+    Private Sub CheckCurrentMRToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CheckCurrentMRToolStripMenuItem.Click
+        Dim mrb_Cur As New frm_CheckCurrent_MRB()
+        With mrb_Cur
+            .MdiParent = Me
+            .Show()
+        End With
+    End Sub
+
+    Private Sub ComponentLocationTransferToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ComponentLocationTransferToolStripMenuItem.Click
+        Dim mrb_Cur As New FrmComponentLocationTransfer()
+        With mrb_Cur
+            .MdiParent = Me
+            .Show()
+        End With
+    End Sub
 End Class

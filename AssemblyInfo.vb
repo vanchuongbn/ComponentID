@@ -10,14 +10,14 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyTitle("ComponentID Generator")> 
 <Assembly: AssemblyDescription("ComponentID Generator is designed for assigning component ID during incomming process in order to tracking assembly matrial with different lotcode/decode")> 
-<Assembly: AssemblyCompany("Unigen")> 
-<Assembly: AssemblyProduct("ComponentID Generator")> 
-<Assembly: AssemblyCopyright("05/27/2022")> 
+<Assembly: AssemblyCompany("Unigen")>
+<Assembly: AssemblyProduct("ComponentID")>
+<Assembly: AssemblyCopyright("2022/06/02")>
 <Assembly: AssemblyTrademark("Update effective date")> 
 <Assembly: CLSCompliant(True)> 
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("9C44A876-BCEA-4E27-8218-9AC3BB5778BB")> 
+<Assembly: Guid("9C44A876-BCEA-4E27-8218-9AC3BB5778BB")>
 
 ' Version information for an assembly consists of the following four values:
 '
@@ -29,6 +29,6 @@ Imports System.Runtime.InteropServices
 ' You can specify all the values or you can default the Build and Revision Numbers 
 ' by using the '*' as shown below:
 
-<Assembly: AssemblyVersion("2.0.6.1")> 
+<Assembly: AssemblyVersion("2.0.7.5")>
 
-<Assembly: AssemblyFileVersionAttribute("2.0.6.1")> 
+<Assembly: AssemblyFileVersion("2.0.7.5")>

@@ -22,36 +22,36 @@ Partial Class frmPrintOuter_PCB
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.chkLoc = New System.Windows.Forms.CheckBox
-        Me.txtLoc = New System.Windows.Forms.TextBox
-        Me.Label3 = New System.Windows.Forms.Label
-        Me.ChkMfger = New System.Windows.Forms.CheckBox
-        Me.txtMfger = New System.Windows.Forms.TextBox
-        Me.ChkUnigenPN = New System.Windows.Forms.CheckBox
-        Me.txtPN = New System.Windows.Forms.TextBox
-        Me.chkpo = New System.Windows.Forms.CheckBox
-        Me.txtPO = New System.Windows.Forms.TextBox
-        Me.ChkMfgPN = New System.Windows.Forms.CheckBox
-        Me.txtMfgPN = New System.Windows.Forms.TextBox
-        Me.Label11 = New System.Windows.Forms.Label
-        Me.lblUser = New System.Windows.Forms.Label
-        Me.lblControlID = New System.Windows.Forms.Label
-        Me.DGV = New System.Windows.Forms.DataGridView
-        Me.Label2 = New System.Windows.Forms.Label
-        Me.Label1 = New System.Windows.Forms.Label
-        Me.txtQty = New System.Windows.Forms.TextBox
-        Me.txtComponentID = New System.Windows.Forms.TextBox
-        Me.chkDateCode = New System.Windows.Forms.CheckBox
-        Me.chkLotCode = New System.Windows.Forms.CheckBox
-        Me.nudCopiesOfLabel = New System.Windows.Forms.NumericUpDown
-        Me.txtDateCode = New System.Windows.Forms.TextBox
-        Me.txtLotCode = New System.Windows.Forms.TextBox
-        Me.btnPrint = New System.Windows.Forms.Button
-        Me.Label4 = New System.Windows.Forms.Label
-        Me.GroupBox4 = New System.Windows.Forms.GroupBox
-        Me.radRCV = New System.Windows.Forms.RadioButton
-        Me.radRTN = New System.Windows.Forms.RadioButton
-        Me.radSPL = New System.Windows.Forms.RadioButton
+        Me.chkLoc = New System.Windows.Forms.CheckBox()
+        Me.txtLoc = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.ChkMfger = New System.Windows.Forms.CheckBox()
+        Me.txtMfger = New System.Windows.Forms.TextBox()
+        Me.ChkUnigenPN = New System.Windows.Forms.CheckBox()
+        Me.txtPN = New System.Windows.Forms.TextBox()
+        Me.chkpo = New System.Windows.Forms.CheckBox()
+        Me.txtPO = New System.Windows.Forms.TextBox()
+        Me.ChkMfgPN = New System.Windows.Forms.CheckBox()
+        Me.txtMfgPN = New System.Windows.Forms.TextBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.lblUser = New System.Windows.Forms.Label()
+        Me.lblControlID = New System.Windows.Forms.Label()
+        Me.DGV = New System.Windows.Forms.DataGridView()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.txtQty = New System.Windows.Forms.TextBox()
+        Me.txtComponentID = New System.Windows.Forms.TextBox()
+        Me.chkDateCode = New System.Windows.Forms.CheckBox()
+        Me.chkLotCode = New System.Windows.Forms.CheckBox()
+        Me.nudCopiesOfLabel = New System.Windows.Forms.NumericUpDown()
+        Me.txtDateCode = New System.Windows.Forms.TextBox()
+        Me.txtLotCode = New System.Windows.Forms.TextBox()
+        Me.btnPrint = New System.Windows.Forms.Button()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.radRCV = New System.Windows.Forms.RadioButton()
+        Me.radRTN = New System.Windows.Forms.RadioButton()
+        Me.radSPL = New System.Windows.Forms.RadioButton()
         CType(Me.DGV, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.nudCopiesOfLabel, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox4.SuspendLayout()
@@ -60,7 +60,7 @@ Partial Class frmPrintOuter_PCB
         'chkLoc
         '
         Me.chkLoc.AutoSize = True
-        Me.chkLoc.Location = New System.Drawing.Point(53, 250)
+        Me.chkLoc.Location = New System.Drawing.Point(57, 250)
         Me.chkLoc.Name = "chkLoc"
         Me.chkLoc.Size = New System.Drawing.Size(107, 17)
         Me.chkLoc.TabIndex = 84
@@ -103,11 +103,11 @@ Partial Class frmPrintOuter_PCB
         'ChkUnigenPN
         '
         Me.ChkUnigenPN.AutoSize = True
-        Me.ChkUnigenPN.Location = New System.Drawing.Point(84, 124)
+        Me.ChkUnigenPN.Location = New System.Drawing.Point(108, 126)
         Me.ChkUnigenPN.Name = "ChkUnigenPN"
-        Me.ChkUnigenPN.Size = New System.Drawing.Size(29, 17)
+        Me.ChkUnigenPN.Size = New System.Drawing.Size(52, 17)
         Me.ChkUnigenPN.TabIndex = 79
-        Me.ChkUnigenPN.Text = " "
+        Me.ChkUnigenPN.Text = "txtPN"
         Me.ChkUnigenPN.UseVisualStyleBackColor = True
         '
         'txtPN
@@ -136,7 +136,7 @@ Partial Class frmPrintOuter_PCB
         'ChkMfgPN
         '
         Me.ChkMfgPN.AutoSize = True
-        Me.ChkMfgPN.Location = New System.Drawing.Point(91, 97)
+        Me.ChkMfgPN.Location = New System.Drawing.Point(91, 99)
         Me.ChkMfgPN.Name = "ChkMfgPN"
         Me.ChkMfgPN.Size = New System.Drawing.Size(76, 17)
         Me.ChkMfgPN.TabIndex = 75
@@ -182,19 +182,19 @@ Partial Class frmPrintOuter_PCB
         'DGV
         '
         Me.DGV.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.DGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DGV.Location = New System.Drawing.Point(12, 327)
         Me.DGV.Name = "DGV"
         Me.DGV.ReadOnly = True
-        Me.DGV.Size = New System.Drawing.Size(1069, 196)
+        Me.DGV.Size = New System.Drawing.Size(1143, 196)
         Me.DGV.TabIndex = 65
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(41, 227)
+        Me.Label2.Location = New System.Drawing.Point(131, 224)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(29, 13)
         Me.Label2.TabIndex = 69
@@ -278,7 +278,7 @@ Partial Class frmPrintOuter_PCB
         '
         'Label4
         '
-        Me.Label4.Location = New System.Drawing.Point(30, 280)
+        Me.Label4.Location = New System.Drawing.Point(24, 281)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(144, 20)
         Me.Label4.TabIndex = 66

@@ -67,6 +67,8 @@ Public Class frmReprintLabel
                     Dim PN As String
                     Dim MfgPN As String
                     Dim SEQ As String
+                    Dim ESDS As Int32 = 0
+                    Dim None_InSpection As Int32 = 0
 
 
                     SEQ = "Reprint"
@@ -81,6 +83,17 @@ Public Class frmReprintLabel
                         QtyPerPack = ""
                     Else
                         QtyPerPack = MyRow.Item("QtyPerPackage")
+                    End If
+                    If MyRow.IsNull("ESDS") = True Then
+                        ESDS = 0
+                    Else
+                        ESDS = Convert.ToInt32(MyRow.Item("ESDS"))
+                    End If
+
+                    If MyRow.IsNull("None_InSpection") = True Then
+                        None_InSpection = 0
+                    Else
+                        None_InSpection = Convert.ToInt32(MyRow.Item("None_InSpection"))
                     End If
 
 
@@ -135,6 +148,16 @@ Public Class frmReprintLabel
                     BTFormat.SetNamedSubStringValue("DateCode", DateCode)
                     BTFormat.SetNamedSubStringValue("Customer", Cust)
                     BTFormat.SetNamedSubStringValue("SEQ", SEQ)
+                    If (ESDS = 1) Then
+                        BTFormat.SetNamedSubStringValue("ESDS", "")
+                    Else
+                        BTFormat.SetNamedSubStringValue("ESDS", "ESDS")
+                    End If
+                    If (None_InSpection = 1) Then
+                        BTFormat.SetNamedSubStringValue("None_InSpection", "Non-Insp")
+                    Else
+                        BTFormat.SetNamedSubStringValue("None_InSpection", "")
+                    End If
                     BTFormat.PrintOut()
                 Next
 

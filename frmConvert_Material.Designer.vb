@@ -1,9 +1,9 @@
-<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class frmConvert_Material
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,60 +20,62 @@ Partial Class frmConvert_Material
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.txtTier = New System.Windows.Forms.TextBox
-        Me.ChkCOO = New System.Windows.Forms.CheckBox
-        Me.txtCOO = New System.Windows.Forms.TextBox
-        Me.NudSerializedLabel = New System.Windows.Forms.NumericUpDown
-        Me.Label6 = New System.Windows.Forms.Label
-        Me.nudCopiesOfLabel = New System.Windows.Forms.NumericUpDown
-        Me.Label4 = New System.Windows.Forms.Label
-        Me.txtCustomer = New System.Windows.Forms.TextBox
-        Me.ChkCustomer = New System.Windows.Forms.CheckBox
-        Me.btnPrint = New System.Windows.Forms.Button
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox
-        Me.GroupBox4 = New System.Windows.Forms.GroupBox
-        Me.radRCV = New System.Windows.Forms.RadioButton
-        Me.radRTN = New System.Windows.Forms.RadioButton
-        Me.radSPL = New System.Windows.Forms.RadioButton
-        Me.txtComponentID = New System.Windows.Forms.TextBox
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox
-        Me.radOther = New System.Windows.Forms.RadioButton
-        Me.radpcb = New System.Windows.Forms.RadioButton
-        Me.Label1 = New System.Windows.Forms.Label
-        Me.tbnSearch = New System.Windows.Forms.Button
-        Me.chkLoc = New System.Windows.Forms.CheckBox
-        Me.chkDateCode = New System.Windows.Forms.CheckBox
-        Me.chkLotCode = New System.Windows.Forms.CheckBox
-        Me.ChkMfger = New System.Windows.Forms.CheckBox
-        Me.ChkUnigenPN = New System.Windows.Forms.CheckBox
-        Me.ChkMfgPN = New System.Windows.Forms.CheckBox
-        Me.txtOriginQty = New System.Windows.Forms.TextBox
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox
-        Me.txtQtyPackage = New System.Windows.Forms.TextBox
-        Me.ChkQty = New System.Windows.Forms.CheckBox
-        Me.chkFirmware = New System.Windows.Forms.CheckBox
-        Me.Label11 = New System.Windows.Forms.Label
-        Me.lblUser = New System.Windows.Forms.Label
-        Me.chkpo = New System.Windows.Forms.CheckBox
-        Me.txtFirmware = New System.Windows.Forms.TextBox
-        Me.txtDateCode = New System.Windows.Forms.TextBox
-        Me.txtLotCode = New System.Windows.Forms.TextBox
-        Me.txtMfger = New System.Windows.Forms.TextBox
-        Me.txtMfgPN = New System.Windows.Forms.TextBox
-        Me.txtPO = New System.Windows.Forms.TextBox
-        Me.txtLoc = New System.Windows.Forms.TextBox
-        Me.txtPN = New System.Windows.Forms.TextBox
-        Me.lblVendor = New System.Windows.Forms.Label
-        Me.lblDesctiption = New System.Windows.Forms.Label
-        Me.txtvendor = New System.Windows.Forms.TextBox
-        Me.txtDescription = New System.Windows.Forms.TextBox
-        Me.Label2 = New System.Windows.Forms.Label
-        Me.txtMSL = New System.Windows.Forms.TextBox
-        Me.chkRemainExposure = New System.Windows.Forms.CheckBox
-        Me.txtRemainingExposure = New System.Windows.Forms.TextBox
-        Me.chkDEV = New System.Windows.Forms.CheckBox
+        Me.txtTier = New System.Windows.Forms.TextBox()
+        Me.ChkCOO = New System.Windows.Forms.CheckBox()
+        Me.txtCOO = New System.Windows.Forms.TextBox()
+        Me.NudSerializedLabel = New System.Windows.Forms.NumericUpDown()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.nudCopiesOfLabel = New System.Windows.Forms.NumericUpDown()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.txtCustomer = New System.Windows.Forms.TextBox()
+        Me.ChkCustomer = New System.Windows.Forms.CheckBox()
+        Me.btnPrint = New System.Windows.Forms.Button()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.chkDEV = New System.Windows.Forms.CheckBox()
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.radRCV = New System.Windows.Forms.RadioButton()
+        Me.radRTN = New System.Windows.Forms.RadioButton()
+        Me.radSPL = New System.Windows.Forms.RadioButton()
+        Me.txtComponentID = New System.Windows.Forms.TextBox()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.radOther = New System.Windows.Forms.RadioButton()
+        Me.radpcb = New System.Windows.Forms.RadioButton()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.tbnSearch = New System.Windows.Forms.Button()
+        Me.chkLoc = New System.Windows.Forms.CheckBox()
+        Me.chkDateCode = New System.Windows.Forms.CheckBox()
+        Me.chkLotCode = New System.Windows.Forms.CheckBox()
+        Me.ChkMfger = New System.Windows.Forms.CheckBox()
+        Me.ChkUnigenPN = New System.Windows.Forms.CheckBox()
+        Me.ChkMfgPN = New System.Windows.Forms.CheckBox()
+        Me.txtOriginQty = New System.Windows.Forms.TextBox()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.txtQtyPackage = New System.Windows.Forms.TextBox()
+        Me.ChkQty = New System.Windows.Forms.CheckBox()
+        Me.chkFirmware = New System.Windows.Forms.CheckBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.lblUser = New System.Windows.Forms.Label()
+        Me.chkpo = New System.Windows.Forms.CheckBox()
+        Me.txtFirmware = New System.Windows.Forms.TextBox()
+        Me.txtDateCode = New System.Windows.Forms.TextBox()
+        Me.txtLotCode = New System.Windows.Forms.TextBox()
+        Me.txtMfger = New System.Windows.Forms.TextBox()
+        Me.txtMfgPN = New System.Windows.Forms.TextBox()
+        Me.txtPO = New System.Windows.Forms.TextBox()
+        Me.txtLoc = New System.Windows.Forms.TextBox()
+        Me.txtPN = New System.Windows.Forms.TextBox()
+        Me.lblVendor = New System.Windows.Forms.Label()
+        Me.lblDesctiption = New System.Windows.Forms.Label()
+        Me.txtvendor = New System.Windows.Forms.TextBox()
+        Me.txtDescription = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.txtMSL = New System.Windows.Forms.TextBox()
+        Me.chkRemainExposure = New System.Windows.Forms.CheckBox()
+        Me.txtRemainingExposure = New System.Windows.Forms.TextBox()
+        Me.txtReceipt_num = New System.Windows.Forms.TextBox()
+        Me.chkReceipt_num = New System.Windows.Forms.CheckBox()
         CType(Me.NudSerializedLabel, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.nudCopiesOfLabel, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
@@ -83,7 +85,7 @@ Partial Class frmConvert_Material
         '
         'txtTier
         '
-        Me.txtTier.Location = New System.Drawing.Point(123, 628)
+        Me.txtTier.Location = New System.Drawing.Point(123, 634)
         Me.txtTier.Name = "txtTier"
         Me.txtTier.ReadOnly = True
         Me.txtTier.Size = New System.Drawing.Size(71, 20)
@@ -93,7 +95,7 @@ Partial Class frmConvert_Material
         'ChkCOO
         '
         Me.ChkCOO.AutoSize = True
-        Me.ChkCOO.Location = New System.Drawing.Point(93, 405)
+        Me.ChkCOO.Location = New System.Drawing.Point(92, 432)
         Me.ChkCOO.Name = "ChkCOO"
         Me.ChkCOO.Size = New System.Drawing.Size(112, 17)
         Me.ChkCOO.TabIndex = 137
@@ -102,7 +104,7 @@ Partial Class frmConvert_Material
         '
         'txtCOO
         '
-        Me.txtCOO.Location = New System.Drawing.Point(218, 403)
+        Me.txtCOO.Location = New System.Drawing.Point(217, 430)
         Me.txtCOO.Name = "txtCOO"
         Me.txtCOO.Size = New System.Drawing.Size(160, 20)
         Me.txtCOO.TabIndex = 136
@@ -110,7 +112,7 @@ Partial Class frmConvert_Material
         '
         'NudSerializedLabel
         '
-        Me.NudSerializedLabel.Location = New System.Drawing.Point(211, 590)
+        Me.NudSerializedLabel.Location = New System.Drawing.Point(211, 596)
         Me.NudSerializedLabel.Minimum = New Decimal(New Integer() {1, 0, 0, 0})
         Me.NudSerializedLabel.Name = "NudSerializedLabel"
         Me.NudSerializedLabel.Size = New System.Drawing.Size(56, 20)
@@ -119,7 +121,7 @@ Partial Class frmConvert_Material
         '
         'Label6
         '
-        Me.Label6.Location = New System.Drawing.Point(55, 591)
+        Me.Label6.Location = New System.Drawing.Point(55, 597)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(144, 20)
         Me.Label6.TabIndex = 135
@@ -128,7 +130,7 @@ Partial Class frmConvert_Material
         '
         'nudCopiesOfLabel
         '
-        Me.nudCopiesOfLabel.Location = New System.Drawing.Point(212, 563)
+        Me.nudCopiesOfLabel.Location = New System.Drawing.Point(212, 569)
         Me.nudCopiesOfLabel.Maximum = New Decimal(New Integer() {2, 0, 0, 0})
         Me.nudCopiesOfLabel.Minimum = New Decimal(New Integer() {1, 0, 0, 0})
         Me.nudCopiesOfLabel.Name = "nudCopiesOfLabel"
@@ -138,7 +140,7 @@ Partial Class frmConvert_Material
         '
         'Label4
         '
-        Me.Label4.Location = New System.Drawing.Point(55, 563)
+        Me.Label4.Location = New System.Drawing.Point(55, 569)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(144, 20)
         Me.Label4.TabIndex = 133
@@ -164,7 +166,7 @@ Partial Class frmConvert_Material
         '
         'btnPrint
         '
-        Me.btnPrint.Location = New System.Drawing.Point(211, 625)
+        Me.btnPrint.Location = New System.Drawing.Point(211, 631)
         Me.btnPrint.Name = "btnPrint"
         Me.btnPrint.Size = New System.Drawing.Size(162, 27)
         Me.btnPrint.TabIndex = 129
@@ -173,7 +175,7 @@ Partial Class frmConvert_Material
         'GroupBox1
         '
         Me.GroupBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GroupBox1.Controls.Add(Me.chkDEV)
         Me.GroupBox1.Controls.Add(Me.GroupBox4)
         Me.GroupBox1.Controls.Add(Me.txtComponentID)
@@ -185,6 +187,16 @@ Partial Class frmConvert_Material
         Me.GroupBox1.Size = New System.Drawing.Size(1105, 74)
         Me.GroupBox1.TabIndex = 128
         Me.GroupBox1.TabStop = False
+        '
+        'chkDEV
+        '
+        Me.chkDEV.AutoSize = True
+        Me.chkDEV.Location = New System.Drawing.Point(736, 30)
+        Me.chkDEV.Name = "chkDEV"
+        Me.chkDEV.Size = New System.Drawing.Size(142, 17)
+        Me.chkDEV.TabIndex = 161
+        Me.chkDEV.Text = "Print With DEV Extened "
+        Me.chkDEV.UseVisualStyleBackColor = True
         '
         'GroupBox4
         '
@@ -420,6 +432,7 @@ Partial Class frmConvert_Material
         Me.lblUser.Name = "lblUser"
         Me.lblUser.Size = New System.Drawing.Size(160, 13)
         Me.lblUser.TabIndex = 116
+        Me.lblUser.Text = "User"
         Me.lblUser.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'chkpo
@@ -492,7 +505,7 @@ Partial Class frmConvert_Material
         'lblVendor
         '
         Me.lblVendor.AutoSize = True
-        Me.lblVendor.Location = New System.Drawing.Point(151, 483)
+        Me.lblVendor.Location = New System.Drawing.Point(150, 510)
         Me.lblVendor.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblVendor.Name = "lblVendor"
         Me.lblVendor.Size = New System.Drawing.Size(41, 13)
@@ -502,7 +515,7 @@ Partial Class frmConvert_Material
         'lblDesctiption
         '
         Me.lblDesctiption.AutoSize = True
-        Me.lblDesctiption.Location = New System.Drawing.Point(130, 456)
+        Me.lblDesctiption.Location = New System.Drawing.Point(129, 483)
         Me.lblDesctiption.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblDesctiption.Name = "lblDesctiption"
         Me.lblDesctiption.Size = New System.Drawing.Size(60, 13)
@@ -511,7 +524,7 @@ Partial Class frmConvert_Material
         '
         'txtvendor
         '
-        Me.txtvendor.Location = New System.Drawing.Point(217, 483)
+        Me.txtvendor.Location = New System.Drawing.Point(216, 510)
         Me.txtvendor.Margin = New System.Windows.Forms.Padding(4)
         Me.txtvendor.Name = "txtvendor"
         Me.txtvendor.ReadOnly = True
@@ -520,7 +533,7 @@ Partial Class frmConvert_Material
         '
         'txtDescription
         '
-        Me.txtDescription.Location = New System.Drawing.Point(217, 456)
+        Me.txtDescription.Location = New System.Drawing.Point(216, 483)
         Me.txtDescription.Margin = New System.Windows.Forms.Padding(4)
         Me.txtDescription.Name = "txtDescription"
         Me.txtDescription.ReadOnly = True
@@ -530,7 +543,7 @@ Partial Class frmConvert_Material
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(165, 430)
+        Me.Label2.Location = New System.Drawing.Point(164, 457)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(29, 13)
@@ -539,7 +552,7 @@ Partial Class frmConvert_Material
         '
         'txtMSL
         '
-        Me.txtMSL.Location = New System.Drawing.Point(217, 430)
+        Me.txtMSL.Location = New System.Drawing.Point(216, 457)
         Me.txtMSL.Margin = New System.Windows.Forms.Padding(4)
         Me.txtMSL.Name = "txtMSL"
         Me.txtMSL.Size = New System.Drawing.Size(213, 20)
@@ -548,7 +561,7 @@ Partial Class frmConvert_Material
         'chkRemainExposure
         '
         Me.chkRemainExposure.AutoSize = True
-        Me.chkRemainExposure.Location = New System.Drawing.Point(86, 515)
+        Me.chkRemainExposure.Location = New System.Drawing.Point(85, 542)
         Me.chkRemainExposure.Name = "chkRemainExposure"
         Me.chkRemainExposure.Size = New System.Drawing.Size(123, 17)
         Me.chkRemainExposure.TabIndex = 146
@@ -559,7 +572,7 @@ Partial Class frmConvert_Material
         '
         Me.txtRemainingExposure.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtRemainingExposure.ForeColor = System.Drawing.Color.Red
-        Me.txtRemainingExposure.Location = New System.Drawing.Point(218, 511)
+        Me.txtRemainingExposure.Location = New System.Drawing.Point(217, 538)
         Me.txtRemainingExposure.Margin = New System.Windows.Forms.Padding(4)
         Me.txtRemainingExposure.Name = "txtRemainingExposure"
         Me.txtRemainingExposure.ReadOnly = True
@@ -567,21 +580,30 @@ Partial Class frmConvert_Material
         Me.txtRemainingExposure.TabIndex = 145
         Me.txtRemainingExposure.Text = " "
         '
-        'chkDEV
+        'txtReceipt_num
         '
-        Me.chkDEV.AutoSize = True
-        Me.chkDEV.Location = New System.Drawing.Point(736, 30)
-        Me.chkDEV.Name = "chkDEV"
-        Me.chkDEV.Size = New System.Drawing.Size(142, 17)
-        Me.chkDEV.TabIndex = 161
-        Me.chkDEV.Text = "Print With DEV Extened "
-        Me.chkDEV.UseVisualStyleBackColor = True
+        Me.txtReceipt_num.Location = New System.Drawing.Point(217, 402)
+        Me.txtReceipt_num.Name = "txtReceipt_num"
+        Me.txtReceipt_num.Size = New System.Drawing.Size(159, 20)
+        Me.txtReceipt_num.TabIndex = 148
+        '
+        'chkReceipt_num
+        '
+        Me.chkReceipt_num.AutoSize = True
+        Me.chkReceipt_num.Location = New System.Drawing.Point(103, 404)
+        Me.chkReceipt_num.Name = "chkReceipt_num"
+        Me.chkReceipt_num.Size = New System.Drawing.Size(89, 17)
+        Me.chkReceipt_num.TabIndex = 147
+        Me.chkReceipt_num.Text = "Receipt_num"
+        Me.chkReceipt_num.UseVisualStyleBackColor = True
         '
         'frmConvert_Material
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1129, 683)
+        Me.Controls.Add(Me.txtReceipt_num)
+        Me.Controls.Add(Me.chkReceipt_num)
         Me.Controls.Add(Me.chkRemainExposure)
         Me.Controls.Add(Me.txtRemainingExposure)
         Me.Controls.Add(Me.lblVendor)
@@ -689,4 +711,6 @@ Partial Class frmConvert_Material
     Friend WithEvents radRTN As System.Windows.Forms.RadioButton
     Friend WithEvents radSPL As System.Windows.Forms.RadioButton
     Friend WithEvents chkDEV As System.Windows.Forms.CheckBox
+    Friend WithEvents txtReceipt_num As TextBox
+    Friend WithEvents chkReceipt_num As CheckBox
 End Class

@@ -1,0 +1,16 @@
+﻿
+# Visual Studio / build
+.vs/
+[Bb]in/
+[Oo]bj/
+packages/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Backup / deployment archives
+Backup/
+UpgradeLog*.htm
+run_files.zip
+app - Copy.config
